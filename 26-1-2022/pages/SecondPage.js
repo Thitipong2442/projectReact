@@ -3,7 +3,7 @@ import { View, Text, Button, SafeAreaView } from "react-native";
 
 import { styles } from "../components/styles";
 
-const FirstPage = ({ navigation }) => {
+const SecondPage = ({ navigation }) => {
     return (
         <SafeAreaView style={{ flex: 1 }}>
             <View style={{ flex: 1, padding: 15 }}>
@@ -26,4 +26,4 @@ const FirstPage = ({ navigation }) => {
     );
 };
 
-export default FirstPage;
+export default SecondPage;
