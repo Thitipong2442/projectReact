@@ -12,7 +12,7 @@ const Logo = () => {
             }}
         >
             <Image
-                style={{ width: 30, heigth: 40 }}
+                style={{ width: 30, height: 40 }}
                 source={require("../assets/react_logo.png")}
             />
         </View>
